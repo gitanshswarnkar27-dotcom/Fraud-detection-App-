@@ -17,7 +17,7 @@ model = joblib.load("model.pkl")
 
 if st.button("Predict"):
 
-    # 🔥 SAME FEATURE ENGINEERING
+
     balance_diff = oldbalanceOrg - newbalanceOrig
 
     data = pd.DataFrame([[amount, oldbalanceOrg, newbalanceOrig,
